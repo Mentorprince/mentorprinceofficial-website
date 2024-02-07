@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+section {
+    padding: 40px 15%;
+}
+
+.contact {
+    background: #c6c9d8bf;
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    align-items: center;
+    grid-gap: 6rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-img {
+    width: 100%;
+    height: 130vh;
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%, rgba(0,0,0,0.8)50%), url(Images/julian-hochgesang-Dkn8-zPIbwo-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation: infinite ease-in-out;
+}
+
+.contact-form h1 {
+    font-size: 80px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+hr {
+    width: 350px;
+    margin-bottom: 15px;
+}
+
+.contact-form p {
+    color: #c6c9d8bf;
+    letter-spacing: 1px;
+    line-height: 26px;
+    font-size: 1.1rem;
+    margin-bottom: 3.8rem;
+}
+
+h6 {
+    color: #ff7200;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+.contact-form {
+    position: relative;
+}
+
+.contact-form form input, form textarea{
+    width: 100%;
+    padding: 17px;
+    margin: 8px;
+    border: none;
+    background: linear-gradient(to top, rgba(0,0,0,0.9)50%, rgba(0,0,0,0.9)50%);
+    border-bottom: 2px solid #191911;
+    outline: none;
+    color: #fff ;
+    font-size: 1.1rem;
+    margin-bottom: 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.contact-form textarea {
+    resize: none;
+    height: 270px;
+}
+
+.contact-form form .butn{
+    display: inline-block;
+    background: #ff7200;
+    font-size: 1.1rem;
+    letter-spacing: 1.px;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    width: 220px;
+    transition: ease .20s;
+    cursor: pointer;
+}
+
+.contact-form form .butn:hover{
+    background: transparent;
+    border: 2px solid #ff7200;
+    transform: scale(1.1);
+    color: #000;
+
+}
+
+footer {
+    width: 100%;
+    height: 20vh;
+    margin: 0;
+    padding: 40px;
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%, rgba(0,0,0,0.8)50%);
+}
+
+.foot-text {
+    display: flex;
+}
+
+.foot-text h1 {
+    color: #fff;
+    left: 60px;
+    padding-top: 20px;
+}
+
+.foot-text p{
+    position: absolute;
+    left: 1020px;
+    padding-top: 30px;
+}

@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.wrapper{
+    padding-top:10%;
+    width: 100%;
+    padding: 40px;
+    background: #0d1214;
+}
+
+.wrapper h1 {
+    font-family: 'Roboto' sans-serif;
+    margin-bottom: 80px;
+    color: #fff;
+    padding-top:  13%;
+    text-align: center;
+    position: relative;
+    font-size: 50px;
+    font-weight: 500; 
+}
+
+.team {
+    display: flex;
+    text-align: center;
+    width: 100%;
+    justify-content: center;
+}
+
+.team .team-member {
+    background: #ff7200;
+    margin: 5px;
+    margin-bottom: 50px;
+    width: 370px;
+    line-height: 20px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.team .team-member h3{
+    color: #fff;
+    font-size: 26px;
+    margin-top: -40px;
+    padding: 0;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+}
+
+.team .team-member .role{
+    color: #111;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin: 0 0;
+    margin-bottom: 20px;
+    
+}
+
+.descrb {
+    color: #818181;
+    font-size: 16px;
+    margin-top: 5px;
+    margin: 5px -20px -20px -20px;
+    flex-wrap: wrap;
+    border-radius: 20px;
+    padding: 35px 35px 55px 35px;
+    background-color: #fff;
+}
+
+.team .team-member .team-image img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    left: 35%;
+    position: relative;
+    transform: translateY(-70px);
+    background: #fff;
+    display: flex;
+    margin-bottom: 0;
+}
+
+.team .team-member .team-image img {
+    width: 100px;
+    height: auto;
+    padding: 10px;
+}
+
+
+
